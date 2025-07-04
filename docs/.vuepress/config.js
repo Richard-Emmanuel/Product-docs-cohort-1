@@ -27,6 +27,7 @@ export default defineUserConfig({
       },
     ],
 
+    contributors: false,
     sidebar: [
       {
         text: "Getting Started",
@@ -129,4 +130,3 @@ export default defineUserConfig({
 
   bundler: webpackBundler(),
 });
-
